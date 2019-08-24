@@ -1,18 +1,17 @@
 # General list page specification
-- Lists can be paginated (if more than a certain ammount of elements and the option is set), in which case the current page is loaded, and the previous and next pages are preloaded if available
+- Lists can be paginated (if more than a certain ammount of elements (default 100) and the option is set (defaults to on)), in which case the current page is loaded, and the previous and next pages are preloaded if available
 - Lists can be displayed in various ways: 
-  - avatar collections (thumbnail, name, flag, description and content-specific info, edit options)
+  - avatar collections (thumbnail, name, flag, description and content-specific info, edit options) (default)
   - compact tables (thumbnail, name, flag and content-specific info, edit options)
   - grids (thumbnail, name and flag, edit options)
 - Thumbnails are as follows: 
-  - For an image, it is a scaled-down and cropped version of the image
-  - For an album, it is an album icon and the number of images inside
-  - For a tag, it is a colored tag icon and the number of images and albums tagged
-  - If the item is flagged NSFW, the icon might be blurred or replaced with a NSFW logo, depending on config
+  - For an [image](image.md), it is a scaled-down and cropped version of the image
+  - For an [album](album.md), it is an album icon and the number of images inside
+  - For a [tag](tag.md), it is a colored tag icon and the number of images and albums tagged
+  - If the item is flagged NSFW, the icon might be blurred or replaced with a NSFW logo (default), depending on config
 - Depending on availability, the following may be available: 
   - Sort options
   - Random selection
   - Client-side filters
   - Entity creation (upload, album create or tag create)
   - Slideshow
-
