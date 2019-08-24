@@ -1,9 +1,9 @@
 # General list page specification
 - Lists can be paginated (if more than a certain ammount of elements (default 100) and the option is set (defaults to on)), in which case the current page is loaded, and the previous and next pages are preloaded if available
 - Lists can be displayed in various ways: 
-  - avatar collections (thumbnail, name, flag, description and content-specific info, edit options) (default)
-  - compact tables (thumbnail, name, flag and content-specific info, edit options)
-  - grids (thumbnail, name and flag, edit options)
+  - avatar collections (thumbnail, name, flag, description and content-specific info, [edit options](edit.md)) (default)
+  - compact tables (thumbnail, name, flag and content-specific info, [edit options](edit.md))
+  - grids (thumbnail, name and flag, [edit options](edit.md))
 - Thumbnails are as follows: 
   - For an [image](image.md), it is a scaled-down and cropped version of the image
   - For an [album](album.md), it is an album icon and the number of images inside
@@ -13,5 +13,5 @@
   - Sort options
   - Random selection
   - Client-side filters
-  - Entity creation (upload, album create or tag create)
+  - Entity creation ([upload](uploader), [album create or tag create](create.md))
   - Slideshow
